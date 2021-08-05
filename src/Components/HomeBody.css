@@ -1,0 +1,89 @@
+.body-section {
+    /* /background: url("../bg2.jpg") no-repeat center center/cover; */
+    background-color: white;
+}
+
+.body-section-content {
+    /* display: flex; */
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    z-index: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.meal-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.home-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-height: 218px;
+    height: 218px;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.home-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: cornflowerblue;
+}
+
+.home-image {
+    width: 100%;
+    max-height: 150px;
+    /* margin-left: 5px; */
+    overflow: hidden;
+}
+
+.nextBtn {
+    padding-top: 100px;
+}
+
+.nextBtn:hover {
+    /* margin-top: '100px'; */
+    color: cornflowerblue;
+}
+
+.home-container {
+    height: 60px;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.recipe-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
